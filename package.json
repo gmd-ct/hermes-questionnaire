@@ -1,0 +1,15 @@
+{
+  "name": "hermes-questionnaire",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Native ::questionnaire{...} question cards for the Hermes desktop app",
+  "scripts": {
+    "verify": "node tests/run.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.1",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}
