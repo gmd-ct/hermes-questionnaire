@@ -235,7 +235,9 @@ def main(argv: list[str]) -> int:
         _die(f"the spec is not valid JSON: {error}")
 
     directives = build(spec)
-    print("\n\n".join(directives))
+    # flush first: the note below goes to stderr, and a piped stdout is block
+    # buffered, which would otherwise print the note above the directives.
+    print("\n\n".join(directives), flush=True)
 
     if "-q" not in args and "--quiet" not in args:
         total_chars = sum(len(part) for part in directives)

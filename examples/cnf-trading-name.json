@@ -1,0 +1,38 @@
+{
+  "id": "cnf-trading-name-1",
+  "title": "CNF consumer trading name",
+  "context": "The marketing name that sits over CNF Contracting for direct-to-market development sales. Answers here set the naming brief, the domain search and the licensing application.",
+  "questions": [
+    {
+      "id": "style",
+      "q": "What should the name read like to a WA buyer?",
+      "detail": "This sets the register for every option below.",
+      "options": ["Established and local", "Modern and urban", "Coastal / lifestyle", "Institutional and safe"],
+      "recommended": 0
+    },
+    {
+      "id": "carry",
+      "q": "Should the name carry the CNF or family heritage?",
+      "options": ["Yes — keep a visible link", "No — market independently", "Subtle nod only"],
+      "recommended": 2
+    },
+    {
+      "id": "scope",
+      "q": "Which markets must the name work in?",
+      "options": ["Western Australia", "National", "WA plus overseas investors"],
+      "multi": true
+    },
+    {
+      "id": "constraints",
+      "q": "Any hard constraints on the name?",
+      "detail": "Words to avoid, family sensitivities, existing trademarks.",
+      "long": true
+    },
+    {
+      "id": "next",
+      "q": "What should happen once a name is chosen?",
+      "options": ["Reserve domain and trademark", "Build brand assets", "Test with a small investor group"],
+      "multi": true
+    }
+  ]
+}
